@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className="h-screen w-full flex md:flex-row flex-col overflow-hidden">
-        <div className="lg:w-1/4 md:w-2/6 bg-[#030712] text-white md:h-full">
+        <div className="lg:w-1/4 md:w-2/6 bg-[#030712] text-white md:h-full overflow-hidden">
           <Navbar />
         </div>
 

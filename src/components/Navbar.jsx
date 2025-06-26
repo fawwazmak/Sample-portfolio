@@ -16,13 +16,13 @@ const Navbar = () => {
                 <p>Home</p>
             </li>
         </Link>
-        <Link to="home" smooth={true} duration={500} spy={true} activeClass="active">
+        <Link to="project" smooth={true} duration={500} spy={true} activeClass="active">
             <li className='text-2xl font-bold hover:text-[#00bcff] duration-300 flex items-center gap-3'>
                 <BiSolidBinoculars />
                 <p>Projects</p>
             </li>
         </Link>
-        <Link to="home" smooth={true} duration={500} spy={true} activeClass="active">
+        <Link to="about" smooth={true} duration={500} spy={true} activeClass="active">
             <li className='text-2xl font-bold hover:text-[#00bcff] duration-300 flex items-center gap-3'>
                 <BsEmojiSmileUpsideDown />
                 <p>About</p>
