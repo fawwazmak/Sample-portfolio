@@ -34,7 +34,7 @@ const About = () => {
       <ParticleBackground />
       <h1 className='text-5xl'>Projects</h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
         {projects.map((project, index) => (
           <div key={index} className="relative group overflow-hidden rounded-xl shadow-md border border-gray-800 transition-transform duration-300 hover:scale-105">
             <img src={project.image} alt={project.title} className="w-full h-60 object-cover" />
