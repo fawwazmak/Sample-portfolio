@@ -14,13 +14,15 @@ const Navbar = () => {
             <IoMdHome />
             <p>Home</p>
         </Link>
-        <Link to="project" smooth={true} duration={500} spy={true} activeClass="active" containerId="scroll-container" offset={-10} className='text-2xl font-bold hover:text-[#00bcff] duration-300 flex items-center gap-3 [&.active]:text-[#00bcff] cursor-pointer'> 
+
+        <Link to="skills" smooth={true} duration={500} spy={true} activeClass="active" containerId="scroll-container" offset={-10} className='text-2xl font-bold hover:text-[#00bcff] duration-300 flex items-center gap-3 [&.active]:text-[#00bcff] cursor-pointer'> 
             <BiSolidBinoculars />
-            <p>Projects</p>
+            <p>Skills</p>
         </Link>
-        <Link to="about" smooth={true} duration={500} spy={true} activeClass="active" containerId="scroll-container" offset={-10} className='text-2xl font-bold hover:text-[#00bcff] duration-300 flex items-center gap-3 [&.active]:text-[#00bcff] cursor-pointer'>
+
+        <Link to="projects" smooth={true} duration={500} spy={true} activeClass="active" containerId="scroll-container" offset={-10} className='text-2xl font-bold hover:text-[#00bcff] duration-300 flex items-center gap-3 [&.active]:text-[#00bcff] cursor-pointer'>
             <BsEmojiSmileUpsideDown />
-            <p>About</p>
+            <p>Projects</p>
         </Link>
     </ul>
   )

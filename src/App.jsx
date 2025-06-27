@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Projects from './components/Skills';
+import About from './components/Projects';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
         <div id="scroll-container" className="w-full overflow-y-auto">
           <Home />
           <Projects />
+          <About />
         </div>
       </div>
     </>

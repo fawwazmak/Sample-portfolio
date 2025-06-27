@@ -2,16 +2,16 @@ import React from 'react';
 import { Element } from "react-scroll";
 import ParticleBackground from "./ParticleBackground";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode, FaGit, FaSass } from "react-icons/fa";
-import { SiMongodb, SiNextdotjs, SiExpress } from "react-icons/si";
+import { FaVuejs } from "react-icons/fa";
 import Avatar from "./Avatar";
 
 
 const Projects = () => {
     
   return (
-    <Element name='project' className='w-full flex flex-col gap-4 items-center justify-center  text-white'>
+    <Element name='skills' className='w-full flex flex-col gap-4 items-center justify-center text-white'>
         <ParticleBackground />
-        <h1 className='text-5xl'>Projects</h1>
+        <h1 className='text-5xl'>Skills</h1>
 
         <section className="min-h-screen text-white px-4 md:px-20 py-20" id="about">
             <Avatar />
@@ -25,12 +25,9 @@ const Projects = () => {
                 { icon: <FaCss3Alt />, label: "CSS" },
                 { icon: <FaJs />, label: "JavaScript" },
                 { icon: <FaReact />, label: "React" },
-                { icon: <SiNextdotjs />, label: "Next.js" },
                 { icon: <FaSass />, label: "Sass" },
                 { icon: <FaGit />, label: "Git" },
-                { icon: <SiMongodb />, label: "MongoDB" },
-                { icon: <SiExpress />, label: "Express.js" },
-                { icon: <FaNode />, label: "Node.js" },
+                { icon: <FaVuejs />, label: "Vue" },
                 ].map((tech, i) => (
                 <div
                     key={i}

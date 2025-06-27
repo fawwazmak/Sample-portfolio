@@ -1,35 +1,11 @@
 const Avatar = () => {
   return (
-    <div className="flex justify-center mb-8">
-      <svg
-        width="120"
-        height="120"
-        viewBox="0 0 200 200"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        className="stroke-[3] stroke-transparent"
-      >
-        <defs>
-          <linearGradient id="gradient" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
-            <stop stopColor="#00bcff" />
-            <stop offset="1" stopColor="#ff007f" />
-          </linearGradient>
-        </defs>
-        <circle cx="100" cy="60" r="30" stroke="url(#gradient)" fill="none" />
-        <path
-          d="M 60 130 Q 100 160 140 130"
-          stroke="url(#gradient)"
-          fill="none"
-        />
-        <path
-          d="M 70 130 Q 100 110 130 130"
-          stroke="url(#gradient)"
-          fill="none"
-        />
-      </svg>
+    <div className="flex justify-center mb-10">
+      <div className="w-32 h-32 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm flex items-center justify-center shadow-lg">
+        <span className="text-4xl font-bold text-white">FA</span>
+      </div>
     </div>
   );
 };
-
 
 export default Avatar;
